@@ -1,6 +1,22 @@
 @import "vendor/project";
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
 
-body{
+//angular only ng cloak
+[ng\:cloak],[ng-cloak],[data-ng-cloak],.ng-cloak{
+  display: none !important;
+}
+
+html{
+
+  font: 100%/1.5em 'PT Sans', sans-serif;
+}
+
+.mast{
+
+  background: url("img/vicki_bag.jpg");
+  background-size: 100%;
+  padding: 10% 0 15% 0;
+
 
 
 }

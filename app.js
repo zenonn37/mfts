@@ -1,7 +1,7 @@
 /**
  * Created by pure coder on 4/18/2014.
  */
-angular.module('app',['ui.router'])
+angular.module('app',['ui.router','directives.skrollr'])
     .config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider,$stateProvider){
 
         $urlRouterProvider.otherwise('/');
@@ -14,7 +14,7 @@ angular.module('app',['ui.router'])
                             .state('main',{
 
                                 url:'/',
-                                templateUrl:'templates/main.html',
+                                templateUrl:'main/main.html',
                                 controller:'mainCtrl'
 
 

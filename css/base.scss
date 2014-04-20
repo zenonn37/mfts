@@ -1,4 +1,4 @@
-@import "vendor/project";
+//@import "vendor/project";
 @import "colors";
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
 
@@ -27,8 +27,8 @@ body{
 .mast{
 
   background: url("img/vicki_bag.jpg")no-repeat;
-  background-size: 100%;
-  padding: 10% 0 15% 0;
+  background-size:cover;
+  //padding: 10% 0 15% 0;
   height: 700px;
   h1{
    color: #fff;
@@ -75,21 +75,25 @@ body{
 
 .services-top{
   background-color:rgba(38,38,38,0.9);
-  height: 300px;
-  margin-top: 120px;
+
+  margin-top:0;
+  //padding-top: 120px;
+
 
 }
 
 .mot-v{
   background-color:rgba(38,38,38,0.9);
-  height: 600px;
-  margin-top: 120px;
+  height: 650px;
+  margin-top:0;
 }
 
 .testimonial-panel{
   background-color:rgba(38,38,38,0.9);
-  height: 400px;
-  margin-top: 120px;
+  height: 500px;
+  margin-top: 0;
+  padding-top: 120px;
+
 }
 
 footer{
@@ -97,22 +101,22 @@ footer{
   bottom: 0;
   width: 100%;
   position: relative;
-  height: 60px;
+  height: 100px;
 }
 
 //start paralax images
 .para-one{
    background: #ffffff url('img/bench_man.jpg')no-repeat;
-   background-size: 100%;
+   background-size: cover;
    height: 500px;
-   padding: 10% 0 15% 0;
+   //padding: 10% 0 15% 0;
  }
 
 .para-two{
   background: #ffffff url('img/debbie_training.jpg')no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 500px;
-  padding: 10% 0 15% 0;
+  //padding: 10% 0 15% 0;
 }
 
 

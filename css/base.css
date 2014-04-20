@@ -7,6 +7,9 @@ body {
   padding-top: 70px;
   background: #262626 url("img/grid_40.png"); }
 
+p {
+  color: #ffffff; }
+
 .navbar {
   min-height: 110px;
   margin-bottom: 0;
@@ -19,13 +22,20 @@ body {
 .mast {
   background: url("img/vicki_bag.jpg") no-repeat;
   background-size: cover;
+  padding: 10% 0 15% 0;
   height: 700px; }
-  .mast h1 {
-    color: #fff;
-    font-family: 'PT Serif', serif;
-    font-weight: 700;
-    font-size: 4.5em;
-    text-align: center; }
+  .mast .billboard {
+    padding-top: 200px; }
+    .mast .billboard h1 {
+      color: #fff;
+      font-family: 'PT Serif', serif;
+      font-weight: 700;
+      font-size: 2.5em;
+      text-align: center; }
+    .mast .billboard h2 {
+      color: #fff;
+      font-family: 'PT Serif', serif;
+      font-weight: 700; }
 
 .panel-title {
   margin-top: 0;
@@ -60,6 +70,8 @@ body {
   margin-top: 0;
   padding-top: 80px;
   padding-bottom: 80px; }
+  .mot-v h1, .mot-v h3 {
+    color: #fff; }
 
 .testimonial-panel {
   background-color: rgba(38, 38, 38, 0.9);

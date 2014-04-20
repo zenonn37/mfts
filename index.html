@@ -11,6 +11,58 @@
 <div ui-view></div>
 <div ng-include src="'includes/footer.html'"></div>
 
+
+<!--modals-->
+<!-- rates model -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel2">Rates</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table" ng-controller="ratesCtrl">
+                    <tr>
+                        <th>Sessions</th>
+                        <th>Per-Session</th>
+                        <th>Plan-A</th>
+                        <th>Plan-B</th>
+                        <th>Payment A</th>
+                        <th>Payment B</th>
+                        <th>Plan Total</th>
+                        <th>Session Duration</th>
+                    </tr>
+
+
+                    <tr ng-repeat="personal in personals">
+
+                        <td>{{personal.sessions}}</td>
+                        <td>{{personal.per-session}}</td>
+                        <td>{{personal.plan-A}}</td>
+                        <td>{{personal.plan-B}}</td>
+                        <td>{{personal.a-payment}}</td>
+                        <td>{{personal.b-payment}}</td>
+                        <td>{{personal.sessions}}</td>
+                        <td>{{personal.plan-total}}</td>
+                        <td>{{personal.time}}</td>
+                    </tr>
+
+
+
+
+
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
 <!--vendor files-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/vendor/angular.js"></script>
@@ -25,6 +77,8 @@
 
 <!--mainApp files-->
 <script src="main/mainCtrl.js"></script>
+<!--modals-->
+<script src="modals/ratesCtrl.js"></script>
 
 
 

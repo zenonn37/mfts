@@ -1,7 +1,7 @@
 /**
  * Created by pure coder on 4/18/2014.
  */
-angular.module('app',['ui.router','directives.skrollr'])
+angular.module('app',['ui.router','directives.skrollr','modalctrl'])
     .config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider,$stateProvider){
 
         $urlRouterProvider.otherwise('/');

@@ -22,10 +22,11 @@
                 <h4 class="modal-title" id="myModalLabel2">Rates</h4>
             </div>
             <div class="modal-body">
-                <table class="table" ng-controller="ratesCtrl">
+                <table class="table text-center" ng-controller="ratesCtrl">
+                    <thead >
                     <tr>
                         <th>Sessions</th>
-                        <th>Per-Session</th>
+                        <th>Rate</th>
                         <th>Plan-A</th>
                         <th>Plan-B</th>
                         <th>Payment A</th>
@@ -34,18 +35,17 @@
                         <th>Session Duration</th>
                     </tr>
 
-
+                    </thead>
                     <tr ng-repeat="personal in personals">
 
                         <td>{{personal.sessions}}</td>
-                        <td>{{personal.per-session}}</td>
-                        <td>{{personal.plan-A}}</td>
-                        <td>{{personal.plan-B}}</td>
-                        <td>{{personal.a-payment}}</td>
-                        <td>{{personal.b-payment}}</td>
-                        <td>{{personal.sessions}}</td>
-                        <td>{{personal.plan-total}}</td>
-                        <td>{{personal.time}}</td>
+                        <td>{{personal.psession | currency}}</td>
+                        <td>{{personal.planA}}</td>
+                        <td>{{personal.planB}}</td>
+                        <td>{{personal.apayment | currency}}</td>
+                        <td>{{personal.bpayment | currency}}</td>
+                         <td>{{personal.plantotal | currency }}</td>
+                        <td>{{personal.duration}}:Minutes</td>
                     </tr>
 
 

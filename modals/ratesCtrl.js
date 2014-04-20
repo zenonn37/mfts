@@ -12,85 +12,85 @@ angular.module('modalctrl',[])
 
                {
 
-                   'plan_id':'1',
+                   'planid':'1',
                    'sessions':30,
-                   'per-session':30,
-                   'plan-A':'Six Bi-weekly payments',
-                   'plan-B':'None',
-                   'a-payment':150,
-                   'b-payment':0,
-                   'plan-total':900,
-                   'time':30
+                   'psession':30,
+                   'planA':'Six Bi-weekly',
+                   'planB':'None',
+                   'apayment':150,
+                   'bpayment':0,
+                   'plantotal':900,
+                   'duration':30
 
 
                },
                {
 
-                   'plan_id':'2',
+                   'planid':'2',
                    'sessions':22,
-                   'per-session':34,
-                   'plan-A':'Five Bi-weekly payments',
-                   'plan-B':'Six Bi-weekly payments',
-                   'a-payment':125,
-                   'b-payment':150,
-                   'plan-total':750,
-                   'time':30
+                   'psession':34,
+                   'planA':'Five Bi-weekly',
+                   'planB':'Six Bi-weekly',
+                   'apayment':125,
+                   'bpayment':150,
+                   'plantotal':750,
+                   'duration':30
 
 
                },
                {
 
-                   'plan_id':'3',
+                   'planid':'3',
                    'sessions':11,
-                   'per-session':36,
-                   'plan-A':'$100 weekly',
-                   'plan-B':'$200 monthly',
-                   'a-payment':100,
-                   'b-payment':200,
-                   'plan-total':900,
-                   'time':30
+                   'psession':36,
+                   'planA':'weekly',
+                   'planB':'monthly',
+                   'apayment':100,
+                   'bpayment':200,
+                   'plantotal':900,
+                   'duration':30
 
 
                },
                {
 
-                   'plan_id':'4',
+                   'planid':'4',
                    'sessions':30,
-                   'per-session':53,
-                   'plan-A':'Six Bi-weekly payments',
-                   'plan-B':'Eight Bi-weekly payments',
-                   'a-payment':266,
-                   'b-payment':200,
-                   'plan-total':1600,
-                   'time':60
+                   'psession':53,
+                   'planA':'Six Bi-weekly',
+                   'planB':'Eight Bi-weekly',
+                   'apayment':266,
+                   'bpayment':200,
+                   'plantotal':1600,
+                   'duration':60
 
 
                },
                {
 
-                   'plan_id':'5',
+                   'planid':'5',
                    'sessions':20,
-                   'per-session':57,
-                   'plan-A':'Six Bi-weekly payments',
-                   'plan-B':'none',
-                   'a-payment':191,
-                   'b-payment':0,
-                   'plan-total':1150,
-                   'time':60
+                   'psession':57,
+                   'planA':'Six Bi-weekly',
+                   'planB':'none',
+                   'apayment':191,
+                   'bpayment':0,
+                   'plantotal':1150,
+                   'duration':60
 
 
                },
                {
 
-                   'plan_id':'6',
+                   'planid':'6',
                    'sessions':10,
-                   'per-session':58,
-                   'plan-A':'Five Bi-weekly payments',
-                   'plan-B':'none',
-                   'a-payment':150,
-                   'b-payment':0,
-                   'plan-total':750,
-                   'time':60
+                   'psession':58,
+                   'planA':'Five Bi-weekly',
+                   'planB':'none',
+                   'apayment':150,
+                   'bpayment':0,
+                   'plantotal':750,
+                   'duration':60
 
 
                }

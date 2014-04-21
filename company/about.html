@@ -1,4 +1,4 @@
-
+<div class="para-one"></div>
     <div class="aboutPanel clearfix" ng-controller="aboutCtrl">
     <div class="container">
 
@@ -6,22 +6,22 @@
 
 
                  <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-2">
 
 
 
                     <ul class="nav nav-pills nav-stacked">
                         <li><a href ng-click="aboutComp();">Company</a></li>
-                        <li><a href ng-click="terryBio();">Terry Pittman</a></li>
+                        <li><a href ng-click="terryBio();">Terry</a></li>
                         <li><a href ng-click="debbieBio();">Debbie</a></li>
-                        <li><a href ng-click="trainer_2Bio();">Trainer 2</a></li>
+                        <li><a href ng-click="trainer_2Bio();">Cathy</a></li>
                     </ul>
 
 
                 </div>
 
 
-                <div class="col-sm-8">
+                <div class="col-sm-9">
 
 
 
@@ -40,14 +40,14 @@
 
                         <div  ng-switch-when="3">
 
-                            <div ng-include="'company/trainer.tpl.html'"></div>
+                            <div ng-include="'company/cathy.tpl.html'"></div>
 
                         </div>
 
 
                         <div ng-switch-default>
 
-                            <div ng-include="'company/about.tpl.html'"></div>
+                            <div ng-include="'company/company.tpl.html'"></div>
                         </div>
                     </div>
 

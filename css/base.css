@@ -89,6 +89,16 @@ p {
     font-family: 'PT Serif', serif;
     font-weight: 700; }
 
+.aboutPanel {
+  background-color: rgba(38, 38, 38, 0.9);
+  margin-top: 0;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .aboutPanel h2 {
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-weight: 700; }
+
 footer {
   bottom: 0;
   width: 100%;

@@ -1,7 +1,9 @@
 /**
  * Created by pure coder on 4/18/2014.
  */
-angular.module('app',['ui.router','directives.skrollr','controller.modalCtrl','controller.services'])
+angular.module('app',['ui.router','directives.skrollr',
+    'controller.modalCtrl','controller.services','workshop.dir'])
+
     .config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider,$stateProvider){
 
         $urlRouterProvider.otherwise('/');
@@ -41,7 +43,8 @@ angular.module('app',['ui.router','directives.skrollr','controller.modalCtrl','c
 
 
 
-                            }) .state('nutrition',{
+                            })
+                            .state('nutrition',{
 
                                 url:'/nutrition',
                                 templateUrl:'services/nutrition.html',

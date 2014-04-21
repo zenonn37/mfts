@@ -123,6 +123,15 @@ p{
 
 }
 
+.personal-training{
+
+  background-color:rgba(38,38,38,0.9);
+
+  margin-top: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 footer{
 
   bottom: 0;
@@ -141,6 +150,13 @@ footer{
 
 .para-two{
   background: #ffffff url('img/debbie_training.jpg')no-repeat;
+  background-size: cover;
+  height: 500px;
+  //padding: 10% 0 15% 0;
+}
+
+.para-three{
+  background: #ffffff url('img/bench_man.jpg')no-repeat;
   background-size: cover;
   height: 500px;
   //padding: 10% 0 15% 0;

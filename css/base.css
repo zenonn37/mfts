@@ -79,6 +79,12 @@ p {
   padding-top: 80px;
   padding-bottom: 80px; }
 
+.personal-training {
+  background-color: rgba(38, 38, 38, 0.9);
+  margin-top: 0;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
 footer {
   bottom: 0;
   width: 100%;
@@ -92,6 +98,11 @@ footer {
 
 .para-two {
   background: white url("img/debbie_training.jpg") no-repeat;
+  background-size: cover;
+  height: 500px; }
+
+.para-three {
+  background: white url("img/bench_man.jpg") no-repeat;
   background-size: cover;
   height: 500px; }
 

@@ -31,24 +31,25 @@ p{
 
 .mast{
 
-  background: url("img/vicki_bag.jpg")no-repeat;
-  background-size:cover;
+  background: url("img/tall_girl_terry_bw.jpg")no-repeat;
+  background-size:100%;
   padding: 10% 0 15% 0;
-  height: 700px;
+  height: 400px;
 
   .billboard{
 
-       padding-top: 200px;
+       padding-top: 100px;
     h1{
       color: #fff;
       font-family: 'PT Serif', serif;
       font-weight: 700;
-      font-size: 2.5em;
+      font-size: 1.5em;
       text-align: center;
     }
 
     h2{
-      color: #fff;
+      font-size: 1.5em;
+      color: #000;
       font-family: 'PT Serif', serif;
       font-weight: 700;
     }
@@ -156,3 +157,144 @@ footer{
 th {
   text-align: center;
 }
+
+//media q
+
+@media screen and (min-width: 1025px) {
+
+
+  .mast{
+
+    background: url("img/tall_girl_terry_bw.jpg")no-repeat;
+    background-size:cover;
+    padding: 10% 0 15% 0;
+    height: 700px;
+
+    .billboard{
+
+      padding-top: 140px;
+      h1{
+        color: #fff;
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+        font-size: 2.5em;
+        text-align: center;
+      }
+
+      h2{
+        color: #000;
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+      }
+
+
+    }
+
+
+
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+
+
+  .mast{
+
+    background: #843534 url("img/tall_girl_terry_bw.jpg")no-repeat ;
+    background-size:cover;
+    padding: 10% 0 15% 0;
+    height: 400px;
+
+    .billboard{
+
+      padding-top: 140px;
+      h1{
+        color: #fff;
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+        font-size: 1.2em;
+        text-align: center;
+      }
+
+      h2{
+        color: #000;
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+      }
+
+
+    }
+
+
+
+  }
+
+  .services-top{
+    background-color:rgba(38,38,38,0.9);
+
+    margin-top:0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+
+    .panel-title {
+      font-weight: 700;
+      font-family: 'PT Serif', serif;
+      font-size: 1.0em;
+      color: #ffffff;
+
+
+
+    }
+
+
+    .panel-body{
+
+      p{
+        font-family: 'PT Serif', serif;
+        font-size: 0.8em;
+      }
+
+    }
+
+
+
+  }
+
+.free{
+
+  h1{
+    color: #fff;
+    //font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    //text-align: center;
+  }
+
+  h3{
+    color: #fff;
+   //font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    //text-align: center;
+  }
+
+}
+
+  .para-one{
+
+    height: 300px;
+    //padding: 10% 0 15% 0;
+  }
+
+
+  .para-two{
+
+    height: 300px;
+    //padding: 10% 0 15% 0;
+  }
+
+
+}
+

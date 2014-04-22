@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <title>Muscle Flow Training Systems</title>
 </head>
-<body ng-app="app">
+<body ng-app="app" ng-cloak>
 <div ng-include src="'includes/nav.html'"></div>
 <div ui-view></div>
 <div ng-include src="'includes/footer.html'"></div>
@@ -23,6 +23,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/vendor/angular.js"></script>
 <script src="js/vendor/angular-ui-router.js"></script>
+<script src="js/vendor/ui.bootstrap.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/skrollr.min.js"></script>
 
@@ -30,9 +31,12 @@
 <!--application files-->
 <script src="app.js"></script>
 <script src="directives/skroller.dir.js"></script>
+<script src="directives/workshop.dir.js"></script>
 
 <!--mainApp files-->
 <script src="main/mainCtrl.js"></script>
+<script src="services/servicesCtrl.js"></script>
+<script src="company/aboutCtrl.js"></script>
 <!--modals-->
 <script src="modals/ratesCtrl.js"></script>
 

@@ -1,7 +1,7 @@
 /**
  * Created by pure coder on 4/20/2014.
  */
-angular.module('modalctrl',[])
+angular.module('controller.modalCtrl',[])
     .controller('ratesCtrl',['$scope',function($scope){
 
 

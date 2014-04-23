@@ -6,7 +6,7 @@ angular.module('controller.about',[])
         $scope.comp = "Muscle Flow Training Systems";
         $scope.deb = "Debbie Pederson";
         $scope.terry = "Terry Pittman";
-        $scope.trainer = "Trainer 3";
+        $scope.trainer = "Cathy";
 
         //$scope.company = true;
 

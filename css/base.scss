@@ -21,7 +21,7 @@ p{
 }
 .navbar {
 
-  min-height: 110px;
+  min-height: 80px;
   margin-bottom: 0;
   border: 1px solid transparent;
   background-color: #ffffff;
@@ -133,7 +133,7 @@ p{
 .personal-training{
 
   background-color:rgba(38,38,38,0.9);
-
+  //font-size: 14px;
   margin-top: 0;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -191,16 +191,29 @@ footer{
 }
 
 .para-three{
-  background: #ffffff url('img/bench_man.jpg')no-repeat;
+  background: #ffffff url('img/terry_vik_room.jpg')no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 800px;
+  //padding: 10% 0 15% 0;
+}
+
+.para-four{
+  background: #ffffff url('img/Terry-working-with-client.jpg')no-repeat;
+  background-size: cover;
+  height: 800px;
+  //padding: 10% 0 15% 0;
+}
+.para-five{
+  background: #ffffff url('img/nutrition.jpg')no-repeat;
+  background-size: cover;
+  height: 800px;
   //padding: 10% 0 15% 0;
 }
 
 
 //modals
 .modal-dialog {
-  //width: 1100px;
+  width: 1100px;
   margin: 30px auto;
 }
 
@@ -231,6 +244,15 @@ th {
 //media q
 
 @media screen and (min-width: 1025px) {
+
+
+  .navbar {
+
+    min-height: 110px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+  }
 
   .modal-dialog {
     width: 1100px;
@@ -341,6 +363,22 @@ th {
 
   }
 
+
+  .personal-training{
+
+    background-color:rgba(38,38,38,0.9);
+    font-size: 14px;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    h2{
+      color: #fff;
+      font-size: 20px;
+      font-family: 'PT Serif', serif;
+      font-weight: 700;
+    }
+  }
+
 .free{
 
   h1{
@@ -374,6 +412,27 @@ th {
     //padding: 10% 0 15% 0;
   }
 
+  .para-three{
+    background: #ffffff url('img/terry_vik_room.jpg')no-repeat;
+    background-size: cover;
+    height: 300px;
+    //padding: 10% 0 15% 0;
+  }
+
+
+  .para-four{
+    background: #ffffff url('img/Terry-working-with-client.jpg')no-repeat;
+    background-size: cover;
+    height: 300px;
+    //padding: 10% 0 15% 0;
+  }
+
+  .para-five{
+    background: #ffffff url('img/nutrition.jpg')no-repeat;
+    background-size: cover;
+    height: 300px;
+    //padding: 10% 0 15% 0;
+  }
 
 
   footer{
@@ -411,6 +470,14 @@ th {
     -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     white-space: normal;
+  }
+
+  .navbar {
+
+    min-height: 80px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    background-color: #ffffff;
   }
 
 

@@ -14,7 +14,7 @@ p {
   color: #ffffff; }
 
 .navbar {
-  min-height: 110px;
+  min-height: 80px;
   margin-bottom: 0;
   border: 1px solid transparent;
   background-color: #ffffff; }
@@ -128,11 +128,22 @@ footer {
   height: 500px; }
 
 .para-three {
-  background: white url("img/bench_man.jpg") no-repeat;
+  background: white url("img/terry_vik_room.jpg") no-repeat;
   background-size: cover;
-  height: 500px; }
+  height: 800px; }
+
+.para-four {
+  background: white url("img/Terry-working-with-client.jpg") no-repeat;
+  background-size: cover;
+  height: 800px; }
+
+.para-five {
+  background: white url("img/nutrition.jpg") no-repeat;
+  background-size: cover;
+  height: 800px; }
 
 .modal-dialog {
+  width: 1100px;
   margin: 30px auto; }
 
 th {
@@ -157,6 +168,12 @@ th {
   white-space: normal; }
 
 @media screen and (min-width: 1025px) {
+  .navbar {
+    min-height: 110px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    background-color: #ffffff; }
+
   .modal-dialog {
     width: 1100px; }
 
@@ -213,6 +230,18 @@ th {
       font-family: 'PT Serif', serif;
       font-size: 0.8em; }
 
+  .personal-training {
+    background-color: rgba(38, 38, 38, 0.9);
+    font-size: 14px;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    .personal-training h2 {
+      color: #fff;
+      font-size: 20px;
+      font-family: 'PT Serif', serif;
+      font-weight: 700; }
+
   .free h1 {
     color: #262626;
     font-weight: 700;
@@ -226,6 +255,21 @@ th {
     height: 300px; }
 
   .para-two {
+    height: 300px; }
+
+  .para-three {
+    background: white url("img/terry_vik_room.jpg") no-repeat;
+    background-size: cover;
+    height: 300px; }
+
+  .para-four {
+    background: white url("img/Terry-working-with-client.jpg") no-repeat;
+    background-size: cover;
+    height: 300px; }
+
+  .para-five {
+    background: white url("img/nutrition.jpg") no-repeat;
+    background-size: cover;
     height: 300px; }
 
   footer {
@@ -256,4 +300,10 @@ th {
     border-radius: 6px;
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    white-space: normal; } }
+    white-space: normal; }
+
+  .navbar {
+    min-height: 80px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    background-color: #ffffff; } }

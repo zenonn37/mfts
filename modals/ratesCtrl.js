@@ -3,6 +3,11 @@
  */
 angular.module('controller.modalCtrl',[])
 
+    .controller('contactCtrl',['$scope',function($scope){
+
+
+    }])
+
     .controller('startedCtrl',['$scope',function($scope){
 
 

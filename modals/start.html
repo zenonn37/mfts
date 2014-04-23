@@ -1,19 +1,19 @@
-<!-- contact model -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!--contact model -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+                <h4 class="modal-title" id="myModalLabel">Get Started</h4>
             </div>
             <div class="modal-body">
                 <div ng-controller="contactCtrl">
-                    <form class="form-horizontal" role="form" data-ng-submit="addContact();
+                    <form class="form-horizontal" role="form" data-ng-submit="addStart();
                 ">
                         <div class="form-group">
                             <label for="inputName" class="col-sm-2 control-label">Name</label>
                             <div class="col-sm-10">
-                                <input type="name" ng-model="name" required ng-pattern=" /^[a-zA-Z]/g"  class="form-control" id="inputName" placeholder="Name">
+                                <input type="text" ng-model="name" required ng-pattern=" /^[a-zA-Z]/g"  class="form-control" id="inputName" placeholder="Name">
                             </div>
                         </div>
                         <div class="form-group">
@@ -22,6 +22,19 @@
                                 <input type="email" ng-model="email" required ng-pattern="/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/"  class="form-control" id="inputEmail3" placeholder="Email">
                             </div>
                         </div>
+
+                        <div class="form-group">
+                            <label for="inputTel" class="col-sm-2 control-label">Phone</label>
+                            <div class="col-sm-10">
+                                <input type="tel" ng-model="tel" required  class="form-control" id="inputTel" placeholder="Phone Optional">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputCall" class="col-sm-2 control-label">Time</label>
+                            <div class="col-sm-10">
+                                <input type="text" ng-model="call" required ng-pattern=" /^[a-zA-Z]/g"  class="form-control" id="inputCall" placeholder="Best Time To Call">
+                             </div>
+                            </div>
                         <div class="form-group">
                             <label for="Message" class="col-sm-2 control-label">Inquiry</label>
                             <div class="col-sm-10">
@@ -39,9 +52,10 @@
                 <h4 class="titlesServices">Location</h4>
 
                 <address>
-                    <strong>MuscleFlow Training Systems</strong><br>
-                    19 Kendall Way<br>
-                    Malta NY, 12020<br>
+                    <strong>MuscleFlow Training Systems</strong><br/>
+                    Global Fitness<br/>
+                    19 Kendall Way<br/>
+                    Malta NY, 12020<br/>
                     <abbr title="Phone">P:</abbr> (518) 528-9440
 
                 </address>

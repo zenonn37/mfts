@@ -32,7 +32,7 @@ p{
 
 .mast{
 
-  background: url("img/tall_girl_terry_bw.jpg")no-repeat;
+  background: url("img/vicki_bag_final.jpg")no-repeat;
   background-size:100%;
   padding: 10% 0 15% 0;
   height: 400px;
@@ -209,6 +209,12 @@ footer{
   height: 800px;
   //padding: 10% 0 15% 0;
 }
+.para-six{
+  background: #ffffff url('img/terry_man_lift.jpg')no-repeat;
+  background-size: cover;
+  height: 500px;
+  //padding: 10% 0 15% 0;
+}
 
 
 //modals
@@ -243,7 +249,13 @@ th {
 
 //media q
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1030px) {
+  .para-six{
+    background: #ffffff url('img/terry_man_lift.jpg')no-repeat;
+    background-size: cover;
+    height: 800px;
+    //padding: 10% 0 15% 0;
+  }
 
 
   .navbar {
@@ -266,10 +278,10 @@ th {
 
   .mast{
 
-    background: url("img/tall_girl_terry_bw.jpg")no-repeat;
+    background: url("img/vicki_bag_final.jpg")no-repeat;
     background-size:cover;
     padding: 10% 0 15% 0;
-    height: 700px;
+    height: 800px;
 
     .billboard{
 
@@ -280,6 +292,7 @@ th {
         font-weight: 700;
         font-size: 2.5em;
         text-align: center;
+        text-transform: uppercase;
       }
 
       h2{
@@ -297,7 +310,12 @@ th {
   
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 769px) {
+
+  .modal-dialog {
+    width: 800px;
+
+  }
 
 
   .mast{
@@ -399,6 +417,22 @@ th {
 
 }
 
+
+  .aboutPanel{
+    background-color:rgba(38,38,38,0.9);
+
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 14px;
+    h2{
+      font-size: 20px;
+      color: #fff;
+      font-family: 'PT Serif', serif;
+      font-weight: 700;
+    }
+  }
+
   .para-one{
 
     height: 300px;
@@ -433,6 +467,12 @@ th {
     height: 300px;
     //padding: 10% 0 15% 0;
   }
+  .para-six{
+    background: #ffffff url('img/terry_man_lift.jpg')no-repeat;
+    background-size: cover;
+    height: 300px;
+    //padding: 10% 0 15% 0;
+  }
 
 
   footer{
@@ -440,7 +480,7 @@ th {
     bottom: 0;
     width: 100%;
     position: relative;
-    height: 150px;
+    height: 200px;
     padding-top: 20px;
     font-size: 16px;
 

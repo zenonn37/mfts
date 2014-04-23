@@ -1,14 +1,53 @@
 /**
  * Created by pure coder on 4/20/2014.
  */
-angular.module('controller.modalCtrl',[])
+angular.module('controller.modalCtrl',['firebase'])
 
-    .controller('contactCtrl',['$scope',function($scope){
+    .controller('contactCtrl',['$scope','ContactService',function($scope,ContactService){
+
+        $scope.contacts = ContactService;
+
+        //contstruct contact submit function
+        $scope.addContact = function(){
+
+            $scope.contacts.$add({name:$scope.name,
+                email:$scope.email,
+                message:$scope.message});
+
+            console.log($scope.name,$scope.email,$scope.message);
+
+           $scope.name = "";
+            $scope.email = "";
+            $scope.message = "";
+        };
 
 
     }])
 
-    .controller('startedCtrl',['$scope',function($scope){
+    .controller('startedCtrl',['$scope','StartService',function($scope,StartService){
+
+
+        $scope.start = StartService;
+
+        //contstruct contact submit function
+        $scope.addStart = function(){
+
+            $scope.start.$add({name:$scope.name,
+                email:$scope.email,
+                tele:$scope.tele,
+                call:$scope.call,
+                message:$scope.message
+
+            });
+
+            console.log($scope.name,$scope.email,$scope.message,$scope.tele,$scope.call);
+
+            $scope.name = "";
+            $scope.email = "";
+            $scope.tele = "";
+            $scope.call = "";
+            $scope.message = "";
+        };
 
 
     }])

@@ -200,7 +200,7 @@ footer{
 
 //modals
 .modal-dialog {
-  width: 1100px;
+  //width: 1100px;
   margin: 30px auto;
 }
 
@@ -208,9 +208,38 @@ th {
   text-align: center;
 }
 
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  width: 200px;
+  padding: 1px;
+  text-align: left;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  white-space: normal;
+}
+
 //media q
 
 @media screen and (min-width: 1025px) {
+
+  .modal-dialog {
+    width: 1100px;
+
+  }
+
+  .navbar-nav.navbar-right{
+    padding-top: 15px;
+  }
 
 
   .mast{
@@ -315,7 +344,7 @@ th {
 .free{
 
   h1{
-    color: #fff;
+    color: #262626;
     //font-family: 'PT Serif', serif;
     font-weight: 700;
     font-size: 1.2em;
@@ -323,7 +352,7 @@ th {
   }
 
   h3{
-    color: #fff;
+    color: #262626;
    //font-family: 'PT Serif', serif;
     font-weight: 700;
     font-size: 0.9em;

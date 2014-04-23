@@ -70,12 +70,12 @@ p {
   padding-bottom: 80px; }
 
 .mot-v {
-  background-color: rgba(38, 38, 38, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   margin-top: 0;
   padding-top: 80px;
   padding-bottom: 80px; }
   .mot-v h1, .mot-v h3 {
-    color: #fff; }
+    color: #262626; }
   .mot-v .ipad {
     padding-left: 160px; }
 
@@ -109,9 +109,13 @@ footer {
   bottom: 0;
   width: 100%;
   position: relative;
-  height: 100px; }
+  height: 100px;
+  padding-top: 20px;
+  font-size: 16px; }
   footer p {
     color: #000; }
+  footer img {
+    padding: 0 3px 3px 0; }
 
 .para-one {
   background: white url("img/bench_man.jpg") no-repeat;
@@ -199,4 +203,34 @@ th {
     height: 300px; }
 
   .para-two {
-    height: 300px; } }
+    height: 300px; }
+
+  footer {
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    height: 150px;
+    padding-top: 20px;
+    font-size: 16px; }
+    footer p {
+      color: #000; }
+    footer img {
+      padding: 0 3px 3px 0; }
+
+  .popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    display: none;
+    width: 200px;
+    padding: 1px;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    white-space: normal; } }

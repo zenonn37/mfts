@@ -105,14 +105,14 @@ p{
 }
 
 .mot-v{
-  background-color:rgba(38,38,38,0.9);
+  background-color:rgba(255,255,255,0.9);
   //height: 650px;
   margin-top:0;
   padding-top: 80px;
   padding-bottom: 80px;
 
   h1,h3{
-    color: #fff;
+    color: #262626;
   }
 
 
@@ -163,9 +163,15 @@ footer{
   width: 100%;
   position: relative;
   height: 100px;
+  padding-top: 20px;
+  font-size: 16px;
 
   p{
     color: #000;
+  }
+
+  img{
+    padding: 0 3px 3px 0;
   }
 }
 
@@ -337,6 +343,45 @@ th {
 
     height: 300px;
     //padding: 10% 0 15% 0;
+  }
+
+
+
+  footer{
+
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    height: 150px;
+    padding-top: 20px;
+    font-size: 16px;
+
+    p{
+      color: #000;
+    }
+    img{
+      padding: 0 3px 3px 0;
+    }
+  }
+
+
+  .popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    display: none;
+    width: 200px;
+    padding: 1px;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    white-space: normal;
   }
 
 

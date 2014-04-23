@@ -13,12 +13,12 @@ body{
   font: 20px 'PT Sans', sans-serif;
   padding-top: 70px;
   background: #262626 url("img/grid_40.png");
+  //color: #ffffff;
+
   //line-height: 1.5;
 }
 
-p{
-  color: #ffffff;
-}
+
 .navbar {
 
   min-height: 80px;
@@ -100,6 +100,7 @@ p{
   margin-top:0;
   padding-top: 80px;
   padding-bottom: 80px;
+  color: #ffffff;
 
 
 }
@@ -110,6 +111,7 @@ p{
   margin-top:0;
   padding-top: 80px;
   padding-bottom: 80px;
+
 
   h1,h3{
     color: #262626;
@@ -137,6 +139,7 @@ p{
   margin-top: 0;
   padding-top: 80px;
   padding-bottom: 80px;
+  color: #ffffff;
   h2{
     color: #fff;
     font-family: 'PT Serif', serif;
@@ -150,6 +153,7 @@ p{
   margin-top: 0;
   padding-top: 80px;
   padding-bottom: 80px;
+  color: #ffffff;
   h2{
     color: #fff;
     font-family: 'PT Serif', serif;
@@ -312,7 +316,7 @@ th {
 
 @media screen and (max-width: 769px) {
 
-  rate .modal-dialog {
+  .rate .modal-dialog {
     width: 800px;
 
   }
@@ -474,7 +478,11 @@ th {
     //padding: 10% 0 15% 0;
   }
 
-
+  .start-help{
+    p{
+      color: #262626 !important;
+    }
+  }
   footer{
 
     bottom: 0;

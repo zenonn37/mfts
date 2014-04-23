@@ -10,9 +10,6 @@ body {
   padding-top: 70px;
   background: #262626 url("img/grid_40.png"); }
 
-p {
-  color: #ffffff; }
-
 .navbar {
   min-height: 80px;
   margin-bottom: 0;
@@ -67,7 +64,8 @@ p {
   background-color: rgba(38, 38, 38, 0.9);
   margin-top: 0;
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  color: #ffffff; }
 
 .mot-v {
   background-color: rgba(255, 255, 255, 0.9);
@@ -89,7 +87,8 @@ p {
   background-color: rgba(38, 38, 38, 0.9);
   margin-top: 0;
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  color: #ffffff; }
   .personal-training h2 {
     color: #fff;
     font-family: 'PT Serif', serif;
@@ -99,7 +98,8 @@ p {
   background-color: rgba(38, 38, 38, 0.9);
   margin-top: 0;
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  color: #ffffff; }
   .aboutPanel h2 {
     color: #fff;
     font-family: 'PT Serif', serif;
@@ -209,7 +209,7 @@ th {
         font-family: 'PT Serif', serif;
         font-weight: 700; } }
 @media screen and (max-width: 769px) {
-  rate .modal-dialog {
+  .rate .modal-dialog {
     width: 800px; }
 
   .mast {
@@ -302,6 +302,9 @@ th {
     background: white url("img/terry_man_lift.jpg") no-repeat;
     background-size: cover;
     height: 300px; }
+
+  .start-help p {
+    color: #262626 !important; }
 
   footer {
     bottom: 0;

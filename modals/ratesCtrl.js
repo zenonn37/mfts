@@ -2,6 +2,11 @@
  * Created by pure coder on 4/20/2014.
  */
 angular.module('controller.modalCtrl',[])
+
+    .controller('startedCtrl',['$scope',function($scope){
+
+
+    }])
     .controller('ratesCtrl',['$scope',function($scope){
 
 

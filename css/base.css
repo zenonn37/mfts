@@ -2,6 +2,9 @@
 [ng\:cloak], [ng-cloak], [data-ng-cloak], .ng-cloak {
   display: none !important; }
 
+.nav, .pagination, .carousel, .panel-title a {
+  cursor: pointer; }
+
 body {
   font: 20px 'PT Sans', sans-serif;
   padding-top: 70px;
@@ -73,6 +76,8 @@ p {
   padding-bottom: 80px; }
   .mot-v h1, .mot-v h3 {
     color: #fff; }
+  .mot-v .ipad {
+    padding-left: 160px; }
 
 .testimonial-panel {
   background-color: rgba(38, 38, 38, 0.9);
@@ -105,6 +110,8 @@ footer {
   width: 100%;
   position: relative;
   height: 100px; }
+  footer p {
+    color: #000; }
 
 .para-one {
   background: white url("img/bench_man.jpg") no-repeat;

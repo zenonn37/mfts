@@ -5,5 +5,7 @@ angular.module('app')
         .controller('mainCtrl',['$scope',function($scope){
 
                $scope.data = "main";
+        $scope.dynamicPopover = "Hello, World!";
+        $scope.dynamicPopoverTitle = "Title";
 
     }]);

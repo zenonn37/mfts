@@ -6,6 +6,7 @@
 [ng\:cloak],[ng-cloak],[data-ng-cloak],.ng-cloak{
   display: none !important;
 }
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
 body{
 
@@ -113,6 +114,11 @@ p{
   h1,h3{
     color: #fff;
   }
+
+
+  .ipad{
+    padding-left: 160px;
+  }
 }
 
 .testimonial-panel{
@@ -157,6 +163,10 @@ footer{
   width: 100%;
   position: relative;
   height: 100px;
+
+  p{
+    color: #000;
+  }
 }
 
 //start paralax images

@@ -65,6 +65,13 @@ angular.module('app',['ui.router','directives.skrollr',
 
 
 
+                            })
+                            .state('rates',{
+                               url:'/rates',
+                                templateUrl:'company/rates.tpl.html',
+                                controller:'ratesController'
+
+
                             });
 
 

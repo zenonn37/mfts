@@ -143,7 +143,7 @@ footer {
   height: 800px; }
 
 .para-six {
-  background: white url("img/terry_man_lift.jpg") no-repeat;
+  background: white url("img/terry_man_lift2.jpg") no-repeat;
   background-size: cover;
   height: 500px; }
 
@@ -174,7 +174,7 @@ th {
 
 @media screen and (min-width: 1030px) {
   .para-six {
-    background: white url("img/terry_man_lift.jpg") no-repeat;
+    background: white url("img/terry_man_lift2.jpg") no-repeat;
     background-size: cover;
     height: 800px; }
 
@@ -299,7 +299,7 @@ th {
     height: 300px; }
 
   .para-six {
-    background: white url("img/terry_man_lift.jpg") no-repeat;
+    background: white url("img/terry_man_lift2.jpg") no-repeat;
     background-size: cover;
     height: 300px; }
 

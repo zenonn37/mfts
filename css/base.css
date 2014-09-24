@@ -5,6 +5,10 @@
 .nav, .pagination, .carousel, .panel-title a {
   cursor: pointer; }
 
+.extraPadding{
+    padding-bottom: 120px;
+}
+
 body {
   font: 20px 'PT Sans', sans-serif;
   padding-top: 70px;

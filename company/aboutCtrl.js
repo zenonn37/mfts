@@ -4,7 +4,7 @@ angular.module('controller.about',[])
 
 
         $scope.comp = "Muscle Flow Training Systems";
-        $scope.deb = "Debbie Pederson";
+        $scope.deb = "Jerome Adams";
         $scope.terry = "Terry Pittman";
         $scope.trainer = "Cathy";
 
@@ -33,9 +33,9 @@ angular.module('controller.about',[])
 
         }
 
-        $scope.debbieBio = function(){
+        $scope.jeromeBio = function(){
 
-            $scope.pageClass = 'debbie-page'
+            $scope.pageClass = 'jerome-page'
 
             $scope.showSecret = 2;
 
